@@ -1,0 +1,6 @@
+tensorboardX
+tensorboard
+scikit-learn
+seqeval
+wget
+tqdm
