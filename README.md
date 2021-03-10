@@ -31,9 +31,9 @@ sh train_cocon.sh
 After training, the COCON block's weights will be saved as `models/COCON/cocon_block_pytorch_model.bin`.
 
 ### Training Key Arguments
-`--do_train` : whether to train COCON or not
+`--do_train` : whether to train COCON or not  
 `--output_dir` : directory of COCON weights  
-`--model_name_or_path` : type of language model to train COCON with
+`--model_name_or_path` : type of language model to train COCON with  
 `--output_hidden_for_cocon_after_block_ind` : index of transformer block whose hidden states are used as input to COCON for content conditioning, value is 6 for results reported in paper, meaning that the output of GPT-2's 7th transformer block is used as COCON block's input.
 
 
@@ -53,12 +53,12 @@ sh generation/generate_cocon_topics.sh
 ```
 
 ### Generation Key Arguments
-`--do_cocon_compute` : whether to do COCON generation
+`--do_cocon_compute` : whether to do COCON generation  
 `--output_dir` : directory of COCON block's weights  
-`--model_name_or_path` : type of language model
+`--model_name_or_path` : type of language model  
 `--cocon_output_filename` : path of saved generation samples  
 `--cocon_compute_history_source_data_file` : filename of text file containing prompt texts for generation  
-`--cocon_compute_context_source_data_file` : filename of text file containing target content for generation
+`--cocon_compute_context_source_data_file` : filename of text file containing target content for generation  
 
 
 ## Summary of Key Folders/Files
