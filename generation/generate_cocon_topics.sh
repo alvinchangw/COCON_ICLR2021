@@ -109,7 +109,7 @@ export CONTEXT_SOURCE_FILE=BOW/only_scientist.txt
 
 python traininfer_cocon.py \
     --do_cocon_compute \
-    --output_dir=models/cocon_mediumk40_B16_splito2_aftb6_woocNhistlm_STmaskp1_2ep \
+    --output_dir=models/COCON \
     --cocon_output_filename science_cocon_output.txt \
     --cocon_output_jsonl_filename science_cocon_output.jsonl \
     --model_type=gpt2 \
