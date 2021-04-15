@@ -52,7 +52,7 @@ Sample script on how to generate COCON topic-controlled text:
 sh generation/generate_cocon_topics.sh
 ```  
 
-COCON-generated texts correspond to the `cocon_output` key in the output jsonl files and `Cocon AR output` in the output txt files.
+COCON-generated texts correspond to the `cocon_output` key in the output `.jsonl` files and `Cocon AR output` in the output `.txt` files.
 
 ### Generation Key Arguments
 `--do_cocon_compute` : whether to do COCON generation  
