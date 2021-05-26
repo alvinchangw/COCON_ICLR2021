@@ -3,7 +3,7 @@ This is our Pytorch implementation of COCON.
 
 **CoCon: A Self-Supervised Approach for Controlled Text Generation (ICLR 2021)**<br>
 *Alvin Chan, Yew-Soon Ong, Bill Pung, Aston Zhang, Jie Fu*<br>
-https://arxiv.org/abs/2010.02684
+https://arxiv.org/abs/2006.03535
 
 TL;DR: We propose CoCon to control the content of text generation from LMs by conditioning on content inputs at an interleave layer.
 
